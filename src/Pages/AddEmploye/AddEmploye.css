@@ -1,0 +1,65 @@
+
+.add-employee-container{
+  min-height: 100vh;
+    /* background: #e7e7e7; */
+    overflow-x: hidden;
+     
+    /* background:url(https://img.freepik.com/free-photo/copy-space-glasses-desk_23-2148519734.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-employee {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #e7e7e7; */
+    background:url(https://img.freepik.com/free-photo/copy-space-glasses-desk_23-2148519734.jpg);
+  }
+  
+  .add-employee h1 {
+    font-size: 24px;
+  }
+  
+  .add-employee form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-employee input, .add-employee select {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .add-employee button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-employee button[type="button"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .add-employee button[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  .form{
+    width: 50%;
+  }
+  .contact-options{
+    display: flex;
+    gap: 1rem;
+  }
